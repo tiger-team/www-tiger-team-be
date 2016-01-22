@@ -13,8 +13,6 @@ header.site-header
             #navbar-collapse-01.collapse.navbar-collapse
                 ul.nav.navbar-nav
                     li(class="#{ current.source == 'index' ? 'active' : '' }")
-                        a(href="") Home
-                    li: a(href="") About
-
-pre #{ current.path }
-pre #{ current.source }
+                        a(href="/") Home
+                    li(class="#{ current.source == 'about' ? 'active' : '' }")
+                        a(href="/about") About
