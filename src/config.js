@@ -15,14 +15,14 @@ System.config({
 
 System.config({
   "map": {
-    "angular": "github:angular/bower-angular@1.4.1",
+    "angular": "github:angular/bower-angular@1.4.9",
     "angular-mocks": "github:angular/bower-angular-mocks@1.4.1",
     "babel": "npm:babel-core@5.5.8",
     "babel-runtime": "npm:babel-runtime@5.5.8",
     "bootstrap-less": "github:distros/bootstrap-less@3.3.9",
     "core-js": "npm:core-js@0.9.18",
     "github:angular/bower-angular-mocks@1.4.1": {
-      "angular": "github:angular/bower-angular@1.4.1"
+      "angular": "github:angular/bower-angular@1.4.9"
     },
     "github:distros/bootstrap-less@3.3.9": {
       "jquery": "github:components/jquery@2.2.0"
